@@ -1,0 +1,37 @@
+.contact{
+    background-color: var(--color-white);
+    padding: 1rem;
+}
+
+.contact__title,
+.contact__p{
+    background: var(--color-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+}
+
+.contact__title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact__p{
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.vector{
+    padding: 1rem;
+    border: 1px solid #002F52;
+    color: var(--color-blue);
+    border-radius: 24px;
+    width: 90%;  
+}
+
+.vector::placeholder{
+    font-family: var(--font-poppins);
+    color: var(--color-blue);
+    background: url("../img/Vector.svg") no-repeat;
+    padding-left: 2rem;
+}

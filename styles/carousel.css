@@ -1,0 +1,83 @@
+.carousel__text{
+    background-color: var(--color-white);
+    padding: 1rem 0 0.5rem 0;
+}
+
+.carousel__title{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-orange);
+    text-align: center;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.swiper-pagination{
+    position: initial;
+    margin: .5rem 0;
+}
+
+.card{
+    background: var(--color-white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card__description{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.card__buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__icons{
+    display: flex;    
+}
+
+.card__title{
+    font-weight: 700;
+    color: var(--color-orange);
+}
+
+.card__title2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #002F52;
+    margin: .5rem 0;
+}
+
+.card__p{
+    font-size: 14px;
+}
+
+.button__item{
+    margin: 0 .5rem;
+}
+
+.sacola{
+    margin-top: 0.2rem;
+}
+
+.button__KnowMore{
+    text-decoration: none;
+    color: var(--color-white);
+    font-weight: 700;
+    background-color: var(--color-orange);
+    padding: 1rem 2.2em;
+}
+
+.estrela{
+    padding: .5rem 0;
+}
