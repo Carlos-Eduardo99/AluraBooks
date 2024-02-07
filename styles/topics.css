@@ -42,4 +42,18 @@
     .topics__itens{
         margin: 2rem 1.5rem;   
     }
+
+    .topics__links:hover{
+        background-color: #FAB973;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .topics{
+        padding: 3em 30vw;
+    }
+
+    
+
+
 }

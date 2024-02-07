@@ -59,9 +59,19 @@ header{
 }
 
 .container__title, 
-.options{
+.options,
+.container__image-text{
     display: none;
 }
+
+.container__button:checked ~ .container__label > .header__menu__hamburguer{
+    background-image: url('../img/menu_black_24dp\ 1.svg');
+}
+
+.container__button:checked ~ .container__label{
+    background: var(--color-blue);
+}
+
 
 @media screen and (min-width: 1024px) {
     .container__title,
@@ -92,7 +102,8 @@ header{
     }
 
     .heart,
-    .header__menu__hamburguer{
+    .header__menu__hamburguer,
+    .options__button{
         display: none;
     }
 
@@ -101,12 +112,49 @@ header{
         width: auto;
     }
 
-    .options__button{
+    .options__button:checked ~ .options__label > .options__itens{
+        background: var(--color-blue);
+        color: var(--color-white);
+    }
+
+    .list__menu__itens:hover{
+        background: var(--color-blue);
+    }
+
+    .list__menu__itens:hover > .list__menu__link{
+        -webkit-text-fill-color: var(--color-white);
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    header{
+        padding: 0 2rem;
+    }
+
+    .container__title{
+        margin-right: 3rem;
+    }
+
+    .container__image{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--color-black);
+    }
+
+    .container__image-text{
+        display: block;
+        margin-left: .25rem;
+        font-size: 20px;
+    }
+
+    .heart,
+    .header__menu__hamburguer{
         display: none;
     }
 
-    .options__itens:hover{
-        background-color: #002F52;
-        color: var(--color-white);
+    .options{
+        margin-right: auto;
     }
 }

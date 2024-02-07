@@ -50,5 +50,12 @@ footer{
     
     .rodape__image{
         margin-right: 0.4375rem;
-    }    
+    }  
+}
+
+@media screen and (min-width: 1728px) {
+   .content__education{
+        border-left: 1px solid var(--color-gray3);
+        padding-left: 1.25rem;
+   } 
 }
