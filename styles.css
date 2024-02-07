@@ -3,7 +3,10 @@
 @import url("styles/carousel.css");
 @import url("styles/topics.css");
 @import url("styles/contact.css");
+@import url("styles/footer.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
 
 :root{
     --color-white: #FFFFFF;
@@ -14,6 +17,7 @@
     --color-black: #000000;
     --color-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --font-poppins: 'Poppins';
+    --font-josefin: 'Josefin Sans';
 }
 
 body{
@@ -21,14 +25,4 @@ body{
     font-family: var(--font-poppins);
     font-size: 16px;
     font-weight: 400;
-}
-
-hr{
-    margin: 0;
-    color: var(--color-blue);
-}
-
-footer{
-    color: var(--color-black);
-    padding: 1rem;
 }

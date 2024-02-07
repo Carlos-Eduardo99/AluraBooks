@@ -57,3 +57,56 @@ header{
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+.container__title, 
+.options{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__title,
+    .container__title__b{
+        font-family: var(--font-josefin);
+        font-size: 30px;   
+    }
+    .container__title{
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__title__b{
+        font-weight: 700;
+    }
+
+    .options{
+        display: flex;
+    }
+
+    .options__itens{
+        padding: 1.5rem;
+    }
+
+    .options__link{
+        text-decoration: none;
+        color: var(--color-black);
+    }
+
+    .heart,
+    .header__menu__hamburguer{
+        display: none;
+    }
+
+    .options__button:checked ~.list__menu{
+        display: block;
+        width: auto;
+    }
+
+    .options__button{
+        display: none;
+    }
+
+    .options__itens:hover{
+        background-color: #002F52;
+        color: var(--color-white);
+    }
+}

@@ -24,9 +24,28 @@
                 <li class="list__menu__itens"><a class="list__menu__link" href="#">DESIGN & UX</a></li>
             </ul>
             <img class="container__image" src="img/Logo.svg" alt="Logo da AluraBooks">
+            <h1 class="container__title"><b class="container__title__b">Alura</b>Books</h1>
         </div>
+
+        <ul class="options">
+            <input type="checkbox" id="options__menu" class="options__button">
+            <label for="options__menu">
+                <li class="options__itens">CATEGORIAS</li>
+            </label>
+            <ul class="list__menu">
+                <li class="list__menu__itens"><a class="list__menu__link" href="#">PROGRAMAÇÃO</a></li>
+                <li class="list__menu__itens"><a class="list__menu__link" href="#">FRONT-END</a></li>
+                <li class="list__menu__itens"><a class="list__menu__link" href="#">INFRAESTRUTURA</a></li>
+                <li class="list__menu__itens"><a class="list__menu__link" href="#">BUSINESS</a></li>
+                <li class="list__menu__itens"><a class="list__menu__link" href="#">DESIGN & UX</a></li>
+            </ul>
+            <li class="options__itens"><a class="options__link" href="#">FAVORITOS</a></li>
+            <li class="options__itens"><a class="options__link" href="#">MINHA ESTANTE</a></li>
+
+        </ul>
+
         <div class="container">
-            <a class="container__image" href="#"><img src="img/Favoritos.svg" alt="icone de favoritos (coração)"></a>
+            <a class="container__image heart " href="#"><img src="img/Favoritos.svg" alt="icone de favoritos (coração)"></a>
             <a class="container__image" href="#"><img src="img/Sacola.svg" alt="icone de sacola de compras"></a>
             <a class="container__image" href="#"><img src="img/Usuario.svg" alt="icone de usuário"></a>
         </div>
@@ -162,15 +181,105 @@
         </section>
 
         <section class="contact">
-            <h2 class="contact__title">Fique por dentro das novidades!</h2>
-            <p class="contact__p">Atualizações de e-books, novos livros, promoções e outros.</p>
+            <div class="contact__description">
+                <h2 class="contact__title">Fique por dentro das novidades!</h2>
+                <p class="contact__p">Atualizações de e-books, novos livros, promoções e outros.</p>
+            </div>
             <input type="email" class="vector" placeholder="Cadastre seu e-mail">
         </section>
         <hr/>
     </main>
-    
-    <footer>
-        <h1>Grupo Alura</h1>
+    <footer class="rodape">
+        <div class="rodape__content">
+            <div class="content__title">
+                <h1>Grupo Alura</h1>
+            </div>
+            <div class="content__education">
+                <h2 class="rodape__title">EDUCAÇÃO</h2>
+                <ul class="rodape__list">
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/Caelum.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Caelum</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/CasaDoCodigo.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Casa do Código</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content__education">
+                <h2 class="rodape__title">EDUCAÇÃO ONLINE</h2>
+                <ul class="rodape__list">
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/Alura.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Alura</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/AluraEmpresas.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Alura Para Empresas</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/AluraLatam.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Alura LATAM</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/AluraStart.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Alura Start</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/MusicDot.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">MusicDot</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/AluraLingua.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Alura Língua</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/PM3.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">PM3</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content__education">
+                <h2 class="rodape__title">COMUNIDADE</h2>
+                <ul class="rodape__list">
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/HipstersTech.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Hipsters ponto Tech</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/Scuba.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Scuba Dev</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/Layers.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Layers ponto Tech</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/LikeABoss.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Like a Boss</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/CarreiraSemFronteira.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Carreira sem Fronteira</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/HipstersJobs.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">Hipsters ponto Jobs</a>
+                    </li>
+                    <li class="rodape__itens">
+                        <img class="rodape__image" src="./img/GUJ.svg" alt="Logo da Caelum">
+                        <a class="rodape__link" href="#">GUJ</a>
+                    </li>
+                </ul>
+            </div>
+   
+            </div>
+            
+        </div>
+        
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
